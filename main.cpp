@@ -51,7 +51,7 @@
                     std::this_thread::sleep_for(std::chrono::milliseconds(100));
             }
         afkthread.join();
-        std::cout << "Анти-AFK выключен.\n";
+        std::cout << "Anti-AFK is off\n";
         Sleep(1000);
         return 0;
     }
